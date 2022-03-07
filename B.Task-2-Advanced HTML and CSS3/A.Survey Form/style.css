@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    color:#F3F3F3;
+    /* padding:10px 10% ; */
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+header {
+    text-align: center;
+}
+section {
+    background-color: #1B1B32CC ;
+    color:#F3F3F3;
+    padding:40px 10px;
+    /* margin: 1rem 10rem; */
+
+}
+
+.two-one-one input,
+.two-one-two input,
+.two-one-three input,
+select,
+select,
+textarea {
+    border:none;
+    width: 90%;
+    padding: .4rem;
+    margin: .4rem;
+    border-radius: 4px;
+}
+input[type=submit] {
+    /* border: none; rewriting standard style, it is necessary to be able to change the size */
+    width: 90%;
+    padding: .4rem;
+    margin: .4rem;
+    /* color:#37AF65; */
+    background-color: #37AF65;
+    border-radius: 10px;
+  }
+textarea {  
+      height:4rem;
+  }
+
+
+/* responsive design */
+@media (max-width: 767px) {
+    body{
+        padding:10px 7.5%;
+    }
+}
+
+
+
+
+/* Small Screens */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body{
+        padding:10px 17.5%;
+    }
+
+}
+
+
+/* Large Screens */
+
+@media (min-width: 991px) and (max-width: 1999px){
+    body{
+        padding:10px 20%;
+    }
+}
+
+/* Custom */
+
+@media (min-width: 2000px) and (max-width: 22000px) {
+    body{
+        padding:10px 38%;
+    }
+}
